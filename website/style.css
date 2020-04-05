@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(to bottom, #b7eaff 0%,#94dfff 100%);
+    height: 100vh;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#app > * {
+    display: block;
+    width: 100%;
+}
+
+.headline {
+    font-size: 32px;
+}
+
+#generate {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.entry > .title {
+    font-size: 26px;
+    margin-bottom: 16px;
+    border-bottom: 4px solid #000;
+}
+
+#entryHolder {
+    font-size: 24px;
+}
